@@ -1,0 +1,912 @@
+[2022-01-23 09:47:07] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 Command line code(1): include_once()
+#1 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 Command line code(1): include_once()
+#1 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 09:47:07] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 09:47:28] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 09:48:37] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 09:49:28] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 09:50:52] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 09:51:51] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 09:52:46] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 09:53:51] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 09:54:51] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 09:55:51] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 09:56:28] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 09:57:41] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 09:58:33] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 09:59:28] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 09:59:46] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 Command line code(1): include_once()
+#1 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 Command line code(1): include_once()
+#1 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 09:59:53] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 10:00:57] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 10:01:41] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 10:02:41] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 10:03:47] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 10:04:42] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 10:05:42] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 10:06:41] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 10:07:43] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 10:08:43] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 10:10:01] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 10:10:41] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 10:11:43] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 10:12:49] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 10:13:43] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 10:14:43] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 10:15:45] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 10:16:56] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 10:17:42] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 10:19:04] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 10:19:43] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 10:20:45] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-01-23 10:21:45] local.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in D:\Projects\foodtiger\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(444): include()
+#1 D:\Projects\foodtiger\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('D:\\Projects\\foo...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\MyAu...')
+#4 Command line code(1): class_exists('App\\Models\\MyAu...')
+#5 [internal function]: {closure}('App\\Models\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(444): include()
+#1 D:\\Projects\\foodtiger\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Projects\\\\foo...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 [internal function]: spl_autoload_call('App\\\\Models\\\\MyAu...')
+#4 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#5 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#6 Command line code(1): array_filter(Array, Object(Closure))
+#7 {main}
+  thrown at D:\\Projects\\foodtiger\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
