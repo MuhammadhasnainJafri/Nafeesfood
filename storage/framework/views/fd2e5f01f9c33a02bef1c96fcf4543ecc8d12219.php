@@ -1,0 +1,1 @@
+<?php /**PATH D:\Projects\foodtiger\resources\views/Nafees/shop.blade.php ENDPATH**/ ?>

@@ -577,4 +577,11 @@ class FrontEndController extends Controller
         $store=Restorant::all();
         return view('Nafees.stores',['stores'=>$store]);
     }
+    public  function searchStore(Request $request){
+        
+
+        $store=Restorant::where('postcode',$request->postcode)->get();
+        // return $store;
+        return view('Nafees.stores',['stores'=>$store]);
+    }
 }

@@ -3,10 +3,10 @@
 namespace App\Repositories\Orders\Local;
 use App\Repositories\Orders\LocalOrderRepository;
 use App\Traits\Payments\HasPayStack;
-use App\Traits\Expedition\HasDinein;
+use App\Traits\Expedition\HasDineIn;
 
 class DineinPayStackOrder extends LocalOrderRepository
 {
-    use HasDinein;
+    use HasDineIn;
     use HasPayStack;
 }

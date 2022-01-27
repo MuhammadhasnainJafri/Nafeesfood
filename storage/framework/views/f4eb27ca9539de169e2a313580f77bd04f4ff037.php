@@ -95,12 +95,30 @@
                             <div class="strip">
                                 <?php if(!empty($item->image)): ?>
                                 <figure>
-                                    <a onClick="setCurrentItem(<?php echo e($item->id); ?>)" href="javascript:void(0)"><img src="<?php echo e($item->logom); ?>" loading="lazy" data-src="<?php echo e(config('global.restorant_details_image')); ?>" class="img-fluid lazy" alt=""></a>
+                                    <a 
+                                    <?php if($item->sell==1): ?>
+                                        
+                                    
+                                     onClick="setCurrentItem(<?php echo e($item->id); ?>)"
+                                     <?php endif; ?>
+                                      href="javascript:void(0)">
+                                    <img src="<?php echo e($item->logom); ?>" loading="lazy" data-src="<?php echo e(config('global.restorant_details_image')); ?>" class="img-fluid lazy" alt="">
+                                    </a>
                                 </figure>
                                 <?php endif; ?>
-                                <span class="res_title"><b><a onClick="setCurrentItem(<?php echo e($item->id); ?>)" href="javascript:void(0)"><?php echo e($item->name); ?></a></b></span><br />
+                                <span class="res_title"><b><a <?php if($item->sell==1): ?>
+                                        
+                                    
+                                     onClick="setCurrentItem(<?php echo e($item->id); ?>)"
+                                     <?php endif; ?> href="javascript:void(0)"><?php echo e($item->name); ?></a></b></span><br />
                                 <span class="res_description"><?php echo e($item->short_description); ?></span><br />
                                 <span class="res_mimimum"><?php echo money($item->price, config('settings.cashier_currency'),config('settings.do_convertion')); ?></span>
+                               <?php if($item->sell==0): ?>
+                                    <span class="res_mimimum text-danger float-right" >
+                                            Not Available Online
+                                </span>
+                               <?php endif; ?>
+                               
                             </div>
                         </div>
                         <?php endif; ?>

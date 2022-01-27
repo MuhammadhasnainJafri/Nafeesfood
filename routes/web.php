@@ -283,3 +283,4 @@ Route::get('franchising-3',function(){
 });
 
 Route::get('stores',[FrontEndController::class,'allstores']);
+Route::get('searchStore',[FrontEndController::class,'searchStore']);

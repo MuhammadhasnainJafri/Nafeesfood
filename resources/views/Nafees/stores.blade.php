@@ -21,7 +21,7 @@
 
   <header data-bully id="post-37-title" class="c-hero  article__header  article__header--page two-thirds-height" data-type="image">
 										<div class="c-hero__background c-hero__layer" data-rellax data-rellax-container>
-							<img class="c-hero__image" data-rellax src="Images/imgp8441_2.jpg" alt="Stores"/>
+							<img class="c-hero__image" data-rellax src="{{asset('Nafees/Images/imgp8441_2.jpg')}}" alt="Stores"/>
 						</div>
 										<div class="c-hero__wrapper">
 						<hgroup class="article__headline">
@@ -64,10 +64,10 @@ color: white;
                             </style>
                             <article id="post-37" class="article--page article--main border-simple post-37 page type-page status-publish has-post-thumbnail hentry">
 				<section class="article__content">
-                    <form action="" class="form-inline-row">
+                    <form action="searchStore" method="get" class="form-inline-row">
                         
                             <label for="" class="col-3">Search Store Here</label>
-                            <input type="text" name="" id="" class='col-5'>
+                            <input type="text" name="postcode" placeholder="Search by Postal Code"  class='col-5'>
                             <button type="submit">Search</button>
                         
                     </form>
@@ -83,7 +83,7 @@ color: white;
 .grid-row {
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .grid-item {
@@ -239,21 +239,21 @@ color: white;
                            <div class="container">
           <div class="grid-row">
             
-          {{$stores}}
+          
           @foreach ($stores as $store)
             <div class="grid-item">
          
-              <a class="wrapping-link" href="https://www.dell.com/learn/us/en/555/campaigns/xps-linux-laptop_us" target="_blank"></a>	   
+              <a class="wrapping-link" href="restaurant/{{$store['subdomain']}}" ></a>	   
               <div class="grid-item-wrapper">
                 <div class="grid-item-container">
-                  <div class="grid-image-top sputnik" style="background-image: url('Images/studio68-380-e1518189564415.jpg');">
+                  <div class="grid-image-top sputnik" style="background-image: url('{{$store['logo']}}');">
                    
                   </div>
                   <div class="grid-item-content">
-                    <h2 class="item-title">Sputnik</h2>
+                    <h2 class="item-title">{{$store['name']}}</h2>
                     <span class="font-weight-bolder" >Address:</span>
-                    <span >A developer focused laptop with a pre-installed and fully support Ubuntu im...</span>
-                    <h5><span class="font-weight-bolder">TEL <a href="tel://0343">0344609009</a></span></h5>
+                    <span >{{$store['address']}}</span>
+                    <h5><span class="font-weight-bolder">TEL <a href="tel://0343">{{$store['phone']}}</a></span></h5>
                   </div>
                 </div>
               </div>

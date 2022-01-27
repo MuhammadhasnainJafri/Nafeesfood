@@ -97,12 +97,30 @@
                             <div class="strip">
                                 @if(!empty($item->image))
                                 <figure>
-                                    <a onClick="setCurrentItem({{ $item->id }})" href="javascript:void(0)"><img src="{{ $item->logom }}" loading="lazy" data-src="{{ config('global.restorant_details_image') }}" class="img-fluid lazy" alt=""></a>
+                                    <a 
+                                    @if($item->sell==1)
+                                        
+                                    
+                                     onClick="setCurrentItem({{ $item->id }})"
+                                     @endif
+                                      href="javascript:void(0)">
+                                    <img src="{{ $item->logom }}" loading="lazy" data-src="{{ config('global.restorant_details_image') }}" class="img-fluid lazy" alt="">
+                                    </a>
                                 </figure>
                                 @endif
-                                <span class="res_title"><b><a onClick="setCurrentItem({{ $item->id }})" href="javascript:void(0)">{{ $item->name }}</a></b></span><br />
+                                <span class="res_title"><b><a @if($item->sell==1)
+                                        
+                                    
+                                     onClick="setCurrentItem({{ $item->id }})"
+                                     @endif href="javascript:void(0)">{{ $item->name }}</a></b></span><br />
                                 <span class="res_description">{{ $item->short_description}}</span><br />
                                 <span class="res_mimimum">@money($item->price, config('settings.cashier_currency'),config('settings.do_convertion'))</span>
+                               @if($item->sell==0)
+                                    <span class="res_mimimum text-danger float-right" >
+                                            Not Available Online
+                                </span>
+                               @endif
+                               
                             </div>
                         </div>
                         @endif
