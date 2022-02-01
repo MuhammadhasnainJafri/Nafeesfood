@@ -123,6 +123,7 @@ class ItemsController extends Controller
         $item->description = strip_tags($request->item_description);
         $item->price = strip_tags($request->item_price);
         $item->category_id = strip_tags($request->category_id);
+        $item->sell = strip_tags($request->sell);
         if ($request->hasFile('item_image')) {
             $item->image = $this->saveImageVersions(
                 $this->imagePath,
@@ -184,12 +185,14 @@ class ItemsController extends Controller
         $item->name = strip_tags($request->item_name);
         $item->description = strip_tags($request->item_description);
         $item->price = strip_tags($request->item_price);
+        
         if (isset($request->vat)) {
             $item->vat = $request->vat;
         }
 
         $item->available = $request->exists('itemAvailable');
         $item->has_variants = $request->exists('has_variants');
+        $item->sell = $request->exists('sell');
 
         if ($request->hasFile('item_image')) {
             if ($request->hasFile('item_image')) {

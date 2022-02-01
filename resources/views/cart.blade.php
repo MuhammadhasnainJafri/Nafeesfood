@@ -116,7 +116,8 @@
 
 
     </div>
-    @include('clients.modals')
+    {{-- @include('clients.modals') --}}
+    @include('clients.customModal');
   </section>
 @endsection
 @section('js')

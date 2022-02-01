@@ -254,4 +254,26 @@ class AddressControler extends Controller
             'msg' => '',
         ]);
     }
+    public function addAddress(Request $request){
+        
+        $address = new Address;
+        $address->address = $request->address;
+        $address->user_id = auth()->user()->id;
+        $address->lat = $request->lat;
+        $address->lng = $request->lng;
+        // $address->apartment = $request->apartment ?? $request->apartment;
+        // $address->intercom = $request->intercom ?? $request->intercom;
+        // $address->floor = $request->floor ?? $request->floor;
+        // $address->entry = $request->entry ?? $request->entry;
+        $address->save();
+
+        //return redirect()->route('/cart-checkout')->withStatus(__('Address successfully added.'));
+
+        return response()->json([
+            'status' => true,
+            'success_url' => redirect()->intended('/cart-checkout')->getTargetUrl(),
+            'msg' => 'Address successfully added!',
+        ]);
+    }
+
 }

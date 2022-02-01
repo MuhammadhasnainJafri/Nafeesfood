@@ -427,16 +427,18 @@ class RestorantController extends Controller
         $hours->{'6_to'} = $request->{'6_to'} ?? null;
         $hours->update();
 
-        return redirect()->route('admin.restaurants.edit', ['id' => $request->rid])->withStatus(__('Working hours successfully updated!'));
+        return redirect()->route('home', ['id' => $request->rid])->withStatus(__('Working hours successfully updated!'));
     }
 
     public function showRegisterRestaurant()
     {
-        return view('restorants.register');
+        // return view('restorants.register');
+        return "<h1>You are not allow to register by own contact with admin </h1>";
     }
 
     public function storeRegisterRestaurant(Request $request)
     {
+        if (auth()->user()->hasRole('admin')) {
         //Validate first
         $theRules = [
             'name' => ['required', 'string', 'unique:restorants,name', 'max:255'],
@@ -499,6 +501,7 @@ class RestorantController extends Controller
             //Foodtiger
             return redirect()->route('newrestaurant.register')->withStatus(__('notications.thanks_and_review'));
         }
+    }
     }
 
     private function makeRestaurantActive(Restorant $restaurant)

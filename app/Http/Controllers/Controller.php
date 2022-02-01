@@ -41,43 +41,43 @@ class Controller extends BaseController
 
     private function withinArea($point, $polygon, $n)
     {
-        if ($polygon[0] != $polygon[$n - 1]) {
-            $polygon[$n] = $polygon[0];
-        }
-        $j = 0;
-        $oddNodes = false;
-        $x = $point->lng;
-        $y = $point->lat;
-        for ($i = 0; $i < $n; $i++) {
-            $j++;
-            if ($j == $n) {
-                $j = 0;
-            }
-            if ((($polygon[$i]->lat < $y) && ($polygon[$j]->lat >= $y)) || (($polygon[$j]->lat < $y) && ($polygon[$i]->lat >= $y))) {
-                if ($polygon[$i]->lng + ($y - $polygon[$i]->lat) / ($polygon[$j]->lat - $polygon[$i]->lat) * ($polygon[$j]->lng - $polygon[$i]->lng) < $x) {
-                    $oddNodes = ! $oddNodes;
-                }
-            }
-        }
+        // if ($polygon[0] != $polygon[$n - 1]) {
+        //     $polygon[$n] = $polygon[0];
+        // }
+        // $j = 0;
+        // $oddNodes = false;
+        // $x = $point->lng;
+        // $y = $point->lat;
+        // for ($i = 0; $i < $n; $i++) {
+        //     $j++;
+        //     if ($j == $n) {
+        //         $j = 0;
+        //     }
+        //     if ((($polygon[$i]->lat < $y) && ($polygon[$j]->lat >= $y)) || (($polygon[$j]->lat < $y) && ($polygon[$i]->lat >= $y))) {
+        //         if ($polygon[$i]->lng + ($y - $polygon[$i]->lat) / ($polygon[$j]->lat - $polygon[$i]->lat) * ($polygon[$j]->lng - $polygon[$i]->lng) < $x) {
+        //             $oddNodes = ! $oddNodes;
+        //         }
+        //     }
+        // }
 
-        return $oddNodes;
+        return [];
     }
 
     public function calculateDistance($latitude1, $longitude1, $latitude2, $longitude2, $unit)
     {
-        $theta = $longitude1 - $longitude2;
-        $distance = (sin(deg2rad($latitude1)) * sin(deg2rad($latitude2))) + (cos(deg2rad($latitude1)) * cos(deg2rad($latitude2)) * cos(deg2rad($theta)));
-        $distance = acos($distance);
-        $distance = rad2deg($distance);
-        $distance = $distance * 60 * 1.1515;
-        switch ($unit) {
-          case 'Mi':
-            break;
-          case 'K':
-            $distance = $distance * 1.609344;
-        }
+        // $theta = $longitude1 - $longitude2;
+        // $distance = (sin(deg2rad($latitude1)) * sin(deg2rad($latitude2))) + (cos(deg2rad($latitude1)) * cos(deg2rad($latitude2)) * cos(deg2rad($theta)));
+        // $distance = acos($distance);
+        // $distance = rad2deg($distance);
+        // $distance = $distance * 60 * 1.1515;
+        // switch ($unit) {
+        //   case 'Mi':
+        //     break;
+        //   case 'K':
+        //     $distance = $distance * 1.609344;
+        // }
 
-        return round($distance, 2);
+        // return round($distance, 2);
     }
 
     public function getAccessibleAddresses($restaurant, $addressesRaw)

@@ -3,6 +3,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h3 class="modal-title" id="modal-title-notification"><?php echo e(__('Add new address')); ?></h3>
+                
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>
@@ -22,7 +23,7 @@
                                 <div id="new_address_map" class="form-control"></div>
                             </div>
 
-                            <div id="address-info">
+                            <div id="address-info d-block">
 
                                 <div class="row">
                                     <div class="col">
@@ -92,7 +93,7 @@
                 </div>
             </div>
 
-            <div class="modal-footer">
+            <div class="modal-footer d-block">
 
                 <button type="button" class="btn btn-link" data-dismiss="modal"><?php echo e(__('Close')); ?></button>
                 <button type="button" id="submitNewAddress" class="btn btn-outline-success"><?php echo e(__('Save')); ?></button>

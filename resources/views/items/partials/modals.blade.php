@@ -136,6 +136,18 @@
                                     </span>
                                 @endif
                             </div>
+                              <div class="form-group{{ $errors->has('sell') ? ' has-danger' : '' }}">
+                              <label for="sell">Sell online</label>
+                              <span class="float-right">
+                              <input type="radio"  name="sell" value="1" checked required>Yes
+                              <input type="radio"  name="sell" value="0" required>No
+                              </span>
+                                @if ($errors->has('sell'))
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $errors->first('sell') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
                             <div class="form-group text-center{{ $errors->has('item_image') ? ' has-danger' : '' }}">
                                 <label class="form-control-label" for="item_image">{{ __('Item Image') }}</label>
                                 <div class="text-center">

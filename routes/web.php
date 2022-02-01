@@ -171,7 +171,9 @@ Route::group(['middleware' => ['auth']], function () {
     Route::get('/new/address/autocomplete', 'AddressControler@newAddressAutocomplete');
     Route::post('/new/address/details', 'AddressControler@newAdressPlaceDetails');
     Route::post('/address/delivery', 'AddressControler@AddressInDeliveryArea');
-
+    //Custom route here
+    Route::post('/addAddress', 'AddressControler@addAddress');
+// ===================
     Route::post('/change/{page}', 'PagesController@change')->name('changes');
 
     Route::post('ckeditor/image_upload', 'CKEditorController@upload')->name('upload');

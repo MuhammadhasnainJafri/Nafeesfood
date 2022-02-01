@@ -113,6 +113,7 @@
                                         @include('partials.images',$image)
                                         @include('partials.toggle',['id'=>'itemAvailable','name'=>'Item available','checked'=>($item->available == 1)])
                                         @include('partials.toggle',['id'=>'has_variants','name'=>'Enable variants','checked'=>($item->has_variants==1)])
+                                        @include('partials.toggle',['id'=>'sell','name'=>'Sell online','checked'=>($item->sell==1)])
                                     </div>
                                     <div class="col-md-6">
                                     </div>
