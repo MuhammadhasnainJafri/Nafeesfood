@@ -67,7 +67,7 @@ color: white;
                     <form action="searchStore" method="get" class="form-inline-row">
                         
                             <label for="" class="col-3">Search Store Here</label>
-                            <input type="text" name="postcode" placeholder="Search by Postal Code"  class='col-5'>
+                            <input type="text" name="postcode" placeholder="Enter the city name here"  class='col-5'>
                             <button type="submit">Search</button>
                         
                     </form>
@@ -246,7 +246,7 @@ color: white;
               <a class="wrapping-link" href="restaurant/{{$store['subdomain']}}" ></a>	   
               <div class="grid-item-wrapper">
                 <div class="grid-item-container">
-                  <div class="grid-image-top sputnik" style="background-image: url('{{$store['logo']}}');">
+                  <div class="grid-image-top sputnik" style="background-image: url('{{$store->icon}}');">
                    
                   </div>
                   <div class="grid-item-content">
